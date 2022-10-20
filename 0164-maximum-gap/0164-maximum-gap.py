@@ -3,9 +3,6 @@ class Solution:
         if len(nums)<2:
             return 0
         nums.sort()
-        
-        
-        #print(nums)
         ans=0
         for i in range(len(nums)-1):
             diff=nums[i+1]-nums[i]
