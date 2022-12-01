@@ -11,7 +11,7 @@ class Solution:
 	        dfs(i,j-1,color,row,col,source)
 	        dfs(i,j+1,color,row,col,source)
 	   
-	    if newColor==image[sr][sc]:
+	    if image[sr][sc]==newColor:
 	       return image
 	   
 	    source=image[sr][sc]
